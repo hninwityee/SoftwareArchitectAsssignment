@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Transaction.Entities\Transaction.Entities.csproj" />
     <ProjectReference Include="..\Transaction.Infrastructure\Transaction.Infrastructure.csproj" />
   </ItemGroup>
