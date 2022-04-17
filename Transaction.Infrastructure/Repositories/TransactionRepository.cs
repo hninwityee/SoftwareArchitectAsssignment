@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using Transaction.Entities;
-using Transaction.Entities.DTOs;
 using Transaction.Infrastructure.Persistance;
 using Transaction.Infrastructure.Repositories.Interfaces;
 

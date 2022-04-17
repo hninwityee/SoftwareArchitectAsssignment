@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Text;
 using Transaction.Entities;
-using Transaction.Entities.DTOs;
 
 namespace Transaction.Infrastructure.Repositories.Interfaces
 {
