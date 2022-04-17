@@ -7,4 +7,10 @@
     <p>
         To upload data using csv and xml file.
     </p>
+
+    <form asp-controller="Home" asp-action="Index" method="post" enctype="multipart/form-data">
+        <input type="file" name="postedFile" />
+        <input type="submit" value="Import" />
+    </form>
 </div>
+  
