@@ -2,7 +2,6 @@
 {
     public interface IRepositoryWrapper
     {
-        IShiftMasterRepository ShiftMaster { get; }
         ITransactionRepository TransactionRepository { get; }
 
     }
