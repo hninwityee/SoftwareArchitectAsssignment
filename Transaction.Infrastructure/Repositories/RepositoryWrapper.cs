@@ -14,21 +14,7 @@ namespace Transaction.Infrastructure.Repositories
         }
 
 
-       
-
-        private IShiftMasterRepository _shiftMaster;
-        public IShiftMasterRepository ShiftMaster
-        {
-            get
-            {
-                if (_shiftMaster == null)
-                {
-                    _shiftMaster = new ShiftMasterRepository(_repoContext);
-                }
-
-                return _shiftMaster;
-            }
-        }
+        
 
         private ITransactionRepository _transactionRepository;
         public ITransactionRepository TransactionRepository
